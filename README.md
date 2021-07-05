@@ -6,4 +6,4 @@ Repository for storing programming projects that I have learned in codecademy.co
 
 - [Dasmotos Arts Crafts](./dasmotos-arts-crafts)
 
-- [Html & Css Cheat](./dasmotos-arts-crafts)
+- [Html & Css Cheat](./html-css-cheatsheet)
