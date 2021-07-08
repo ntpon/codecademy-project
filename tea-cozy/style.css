@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+nav {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  margin-left: 5px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navigation a {
+  color: seashell;
+  padding: 0 10px;
+  opacity: 0.9;
+}
+
+.hero {
+  margin-top: 69px;
+  height: 700px;
+  background-image: url('./images/img-mission-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-heading {
+  background-color: black;
+  width: 1200px;
+}
+.box-heading h2,
+.box-heading h4 {
+  text-align: center;
+}
+
+.box-heading h2 {
+  margin: 10px 0;
+}
+
+.box-heading h4 {
+  margin: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallary {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallary-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 15px;
+}
+.card img {
+  height: 200px;
+  width: 300px;
+}
+.card h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heading-sub {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.location {
+  height: 500px;
+  margin: 0 20px;
+  background-image: url('./images/img-locations-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.panel {
+  width: 300px;
+  background-color: black;
+  margin: 0 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.panel h4 {
+  margin-top: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h5 {
+  margin-top: 25px;
+}
+
+footer {
+  margin-left: 20px;
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+  .location {
+    height: auto;
+  }
+  .box {
+    flex-direction: column;
+  }
+  .panel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
